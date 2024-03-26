@@ -1,0 +1,111 @@
+// Lato
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Light";
+  src: url("../font/Lato-Light.ttf") format("truetype");
+}
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Regular";
+  src: url("../font/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Bold";
+  src: url("../font/Lato-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Heavy";
+  src: url("../font/Lato-Heavy.ttf") format("truetype");
+}
+// Tilt Warp
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+// Variable Colors
+$radius: 10px;
+$white: #ffffff;
+$black: #000000;
+$border: #bdbdbd;
+$menu-bg: #191917;
+// Kind of Sauce
+$kind-of-sauce: #c3030b;
+$bo-sot-thai: #fe4e33;
+$bo-sa-te: #be1100;
+$bo-tau-xi: #4f280b;
+$bo-pho-mai: #ff9c2c;
+$bo-trung-muoi: #ffbd12;
+$bo-tieu-den: #2c2c2c;
+$banh-mi-bo-trung: #907b6c;
+// Side Dishes
+$salad: #8750a3;
+$salad-color: #146730;
+// Water
+$water: #27b8b5;
+$man-hong-dao: #f54c6b;
+$xanh-chanh-sa: #93c600;
+
+$end: #1e1e1e;
+// Reset CSS
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+  background-color: $white;
+  font-family: "Regular", sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+input,
+button {
+  outline: 0;
+  border: none;
+}
+ul,
+li {
+  margin: 0;
+  list-style: none;
+}
+ol,
+ul {
+  padding-left: 0;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+button {
+  background-color: transparent;
+}
+.background-dark {
+  background-color: #191917 !important;
+}
+.top-100 {
+  top: -100% !important;
+}
+.overflow {
+  overflow: hidden !important;
+}
